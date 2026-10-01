@@ -342,24 +342,7 @@ El proyecto también permitió combinar análisis comercial, comportamiento de u
 
 Abre el archivo:
 
-dashboard/AndesCapitalRealestate_Dashboard.pbix
+dashboard/RappiPlus_Dashboard.pbix
 
 El dashboard contiene las métricas y visualizaciones desarrolladas a partir de los datos procesados.
 
-## Dashboard
-
-El proyecto está organizado en diferentes vistas para facilitar el análisis:
-
-🏠 General
-
-Presenta los principales indicadores de desempeño comercial y permite analizar la evolución de las ventas mediante filtros interactivos.
-
-
-📈 Detalle
-
-Permite profundizar en el comportamiento de las ventas, propiedades y canales de comercialización.
-
-
-👥 Clientes y Cohortes
-
-Presenta indicadores relacionados con compradores, recurrencia y comportamiento de las cohortes.
