@@ -15,6 +15,8 @@ El proyecto combina análisis exploratorio, limpieza y validación de datos, con
 
 ### El proyecto utiliza tres conjuntos de datos principales:
 
+
+
 **1. Pedidos**
 
 Contiene 25.100 registros y 12 variables relacionadas con las órdenes realizadas en la plataforma.
@@ -48,6 +50,8 @@ Variables principales:
 
 
 
+
+
 **2. Catálogo de productos**
 
 Contiene información sobre los productos comercializados:
@@ -59,6 +63,8 @@ Contiene información sobre los productos comercializados:
 **costo_unitario**: costo del producto.
 
 **proveedor**: proveedor asociado.
+
+
 
 
 
@@ -78,6 +84,8 @@ Contiene información sobre la inversión en campañas:
 **gasto**: inversión realizada.
 
 También se utilizó información de eventos de usuarios y un conjunto de datos correspondiente al experimento A/B del checkout.
+
+
 
 
 
@@ -111,7 +119,10 @@ También se utilizó información de eventos de usuarios y un conjunto de datos 
 
 
 
+
+
 ### Etapas del análisis
+
 
 
 **1. Exploración y validación inicial**
@@ -138,6 +149,8 @@ En la tabla de pedidos se identificaron 100 registros duplicados, además de val
 
 
 
+
+
 **2. Limpieza y calidad de datos**
 
 Se realizaron procesos de limpieza y validación para preparar los datos para el análisis.
@@ -157,6 +170,8 @@ Los 10 registros con cantidades extremas correspondían al producto Laptop-Gamin
 Se identificaron inconsistencias entre el monto total y el cálculo esperado a partir de cantidad, precio y descuento.
 
 Los registros con cantidades extremas fueron excluidos de los análisis financieros para evitar que distorsionaran los resultados.
+
+
 
 
 
@@ -190,6 +205,8 @@ El análisis permitió construir indicadores para evaluar el desempeño comercia
 
 
 
+
+
 **4. Análisis del comportamiento de usuarios**
 
 Se analizaron las diferentes etapas del recorrido del usuario:
@@ -209,6 +226,8 @@ Compra.
 Se comparó el número de usuarios registrados en cada evento para identificar diferencias en el comportamiento a lo largo del proceso.
 
 Nota: los usuarios registrados en cada evento no representan necesariamente subconjuntos secuenciales de los mismos usuarios, por lo que estos datos deben interpretarse como usuarios únicos por etapa y no como un funnel secuencial tradicional.
+
+
 
 
 
@@ -240,6 +259,8 @@ Diferencia: +0,60 puntos porcentuales
 p-value: 0,416
 
 Con un nivel de significancia de 0,05, no se encontró evidencia estadística suficiente para afirmar que la modificación del checkout haya producido una diferencia significativa en la conversión.
+
+
 
 
 
@@ -279,6 +300,8 @@ Se utilizaron DAX y Power Query para la construcción de métricas, transformaci
 
 
 
+
+
 ### Principales hallazgos
 
 Calidad de datos
@@ -299,6 +322,8 @@ La variante del checkout presentó una conversión ligeramente superior a la del
 
 
 
+
+
 ### Conclusiones
 
 El proyecto permitió desarrollar un flujo completo de análisis de datos, desde la exploración y validación de la información hasta el análisis estadístico y la visualización de resultados en Power BI.
@@ -306,6 +331,8 @@ El proyecto permitió desarrollar un flujo completo de análisis de datos, desde
 Uno de los principales aprendizajes fue la importancia de revisar la calidad de los datos antes de utilizar la información para calcular indicadores o generar conclusiones.
 
 El proyecto también permitió combinar análisis comercial, comportamiento de usuarios y experimentación A/B para obtener una visión más completa del desempeño de RappiPlus.
+
+
 
 
 
