@@ -55,11 +55,31 @@ Construcción de un dashboard en Power BI, utilizando DAX y Power Query para tra
 ### 2. Experimento A/B (Rediseño de Checkout)
 Se evaluó el impacto de la modificación del checkout sobre la tasa de conversión global
 
-> **Conclusión Estadística:** A pesar del incremento observado del +0.60%, el $p\text{-value} > 0.05$ demuestra que **no existe evidencia estadística suficiente** para afirmar que el nuevo checkout supere al anterior. Se recomendó no implementar el cambio sin iterar la propuesta.
+
+---
+## 💡 Conclusiones del Negocio & Habilidades Demostradas
+
+### 📌 Decisiones de Negocio (Business Impact)
+
+
+**Protección de la Estrategia Financiera:** La detección temprana y exclusión de registros atípicos (*Laptop-Gaming-16GB*) evitó proyecciones de ingresos sobreestimadas, permitiendo calcular un margen de beneficio real y confiable para la toma de decisiones.
+
+**Criterio de Inversión Basado en Evidencia:** La prueba A/B demostró que el rediseño del checkout no generaba un impacto significativo en las ventas ($p\text{-value} = 0.416$). Esto previno que el equipo desplegara un cambio costoso en producción sin un retorno claro.
+
+
+
+---
+### 🧠 Capacidades Técnicas Demostradas
+
+
+**Pensamiento Crítico e Inferencia Estadística:** Diferenciación clara entre una variación aritmética observada (+0.60%) y una mejora verdaderamente respaldada por significancia estadística.
+
+**Enfoque End-to-End de Datos:** Capacidad para abarcar todo el ciclo de vida del dato: desde la ingesta y auditoría de calidad (Python/SQL), pasando por el modelado y métricas (DAX/Power BI), hasta la comunicación estratégica de hallazgos.
 
 ---
 
 ## 🔗 Enlaces del Proyecto
 
-* 📊 **[Ver Dashboard Interactivo en Power BI]** https://app.powerbi.com/view?r=eyJrIjoiMjRiOTk0OGMtNDgxMy00YWM0LWE0YTUtOTEzYzEwYzBkMDZmIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9 **
-* 📁 **[Explorar Cuadernos de Análisis y Código en Python](./notebooks)
+📊 **[Ver Dashboard Interactivo en Power BI]** https://app.powerbi.com/view?r=eyJrIjoiMjRiOTk0OGMtNDgxMy00YWM0LWE0YTUtOTEzYzEwYzBkMDZmIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9 **
+
+📁 **[Explorar Cuadernos de Análisis y Código en Python](./notebooks)**
