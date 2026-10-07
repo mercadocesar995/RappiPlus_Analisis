@@ -80,6 +80,6 @@ Se evaluó el impacto de la modificación del checkout sobre la tasa de conversi
 
 ## 🔗 Enlaces del Proyecto
 
-📊 **[Ver Dashboard Interactivo en Power BI]** https://app.powerbi.com/view?r=eyJrIjoiMjRiOTk0OGMtNDgxMy00YWM0LWE0YTUtOTEzYzEwYzBkMDZmIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9 **
+📊 **[Ver Dashboard Interactivo en Power BI](https://app.powerbi.com/view?r=eyJrIjoiMjRiOTk0OGMtNDgxMy00YWM0LWE0YTUtOTEzYzEwYzBkMDZmIiwidCI6ImQ1MTM4OGVmLTZhYjAtNDM2My05Zjk0LWQ1NjY0NGE0NTk3MCIsImMiOjR9)**
 
 📁 **[Explorar Cuadernos de Análisis y Código en Python](./notebooks)**
